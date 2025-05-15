@@ -14,6 +14,10 @@ builder.Services.AddSwaggerGen();
 
 /* Instanciando os Repositorios e Interfaces*/
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
+builder.Services.AddScoped<IPedidoRepositorio, PedidoRepositorio>();
+builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+builder.Services.AddScoped<IPedidoProdutoRepositorio, PedidoProdutoRepositorio>();
 
 /*Adicionando a nossa string de conexão*/
 builder.Services.AddDbContext<SistemaVendasDbContext>(

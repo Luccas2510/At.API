@@ -4,13 +4,13 @@ namespace At.API.Enums
 {
     public enum StatusPedido
     {
-        [Description("Em Pendencia")]
-        Pendente = 1,
-        [Description("Em Processo")]
-        AmAndamento = 2,
+        [Description("Pendente")]
+        EmPendência = 1,
+        [Description("Processando")]
+        EmProcesso = 2,
         [Description("Enviado")]
-        Enviado = 3,
+        EmEnvio = 3,
         [Description("Entregue")]
-        Entregu = 4,
+        Entregue = 4
     }
 }

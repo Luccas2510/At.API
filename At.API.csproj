@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <Compile Remove="Data\Map\SistemaVendosDbContext.cs" />
-    <Compile Remove="Models\CategoriaModel.cs" />
-    <Compile Remove="Models\ProdutoModel.cs" />
   </ItemGroup>
 
   <ItemGroup>
